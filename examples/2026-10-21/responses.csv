@@ -1,0 +1,63 @@
+run_id,sample,model,returned_model,provider,started_at,latency_seconds,status,number,answer,finish_reason,prompt_tokens,completion_tokens,reasoning_tokens,cost_usd,response_id,trace_id,error
+20261021T130022Z-83c71b55,1,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:00:22.840256+00:00,3.094,valid,7,7,stop,15,5,0,8e-05,gen-1792587623-pCOQvBIItWpsUFUnNNd1,ce9baba06c0041b991bfc743de176297,
+20261021T130022Z-83c71b55,1,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:00:25.938352+00:00,2.004,valid,7,I'll go with 7.,stop,20,10,0,0.00028,gen-1792587626-EmVr77eDwQvotvzoBmhN,93c7ac49296d4a77beae680873589131,
+20261021T130022Z-83c71b55,1,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:00:27.943002+00:00,1.334,valid,7,7,stop,1251,43,42,0.001032,gen-1792587628-1L7Dqm0ZwFsV6jilbJex,0f6664ba3fcd46aca2e33bd4df033662,
+20261021T130022Z-83c71b55,1,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:00:29.277953+00:00,2.464,valid,7,7,stop,41,5,0,0.000132,gen-1792587629-rZ5PYLBKnlHv8OgoUZpj,068677e6b0fd41009cbba5b761b3e668,
+20261021T130022Z-83c71b55,1,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:00:31.742130+00:00,3.127,valid,7,7,stop,17,209,199,0.004248,gen-1792587631-b8eGPr5JoPmXnnWEjtqK,b7c03d6353494532b7d4846925defc3d,
+20261021T130022Z-83c71b55,2,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:00:34.870786+00:00,1.528,valid,7,7,stop,15,5,0,8e-05,gen-1792587634-ObDcvTdJ62tNIEfpguQX,26dfe8b80ea6401b9f04ce725419a376,
+20261021T130022Z-83c71b55,2,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:00:36.399936+00:00,4.193,valid,7,"**7**
+
+Want to guess what I'll pick next, or play a guessing game?",stop,20,35,8,0.00078,gen-1792587636-0mXh3b4afODGSS9590xo,b77bdacd190e45ec857c685c3446a618,
+20261021T130022Z-83c71b55,2,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:00:40.594309+00:00,3.698,valid,7,7,stop,1251,32,31,0.000966,gen-1792587642-wX440Ws2yi5eqhr5PpNh,08e0dd55985c481b8eda0ee64db9c95f,
+20261021T130022Z-83c71b55,2,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:00:44.293554+00:00,2.775,valid,7,7,stop,41,5,0,0.000132,gen-1792587644-hKlsGDYUyq1u2uLbeeDJ,089b06313f1947cd8bab9ac17d7a4b62,
+20261021T130022Z-83c71b55,2,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:00:47.069452+00:00,4.105,valid,7,7,stop,17,241,215,0.004888,gen-1792587647-L7C1Ip8WveQncnjy1mgf,808cea45b2fa4e51aa6bac368102de04,
+20261021T130022Z-83c71b55,3,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:00:51.175045+00:00,1.782,valid,7,7,stop,15,5,0,8e-05,gen-1792587651-ocXgUnBoEMJ4kTDDy24e,d9d633620ce047a3a489f7cb6369d0d2,
+20261021T130022Z-83c71b55,3,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:00:52.957793+00:00,3.873,valid,7,**7**,stop,20,16,11,0.0004,gen-1792587653-Ysg88jQR51KiePpUiENf,585a09f393d140a7b19a82f8341b7507,
+20261021T130022Z-83c71b55,3,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:00:56.838526+00:00,3.595,valid,7,7,stop,1251,43,42,0.001032,gen-1792587656-jPH4Yjhoi4WOcOaeC774,34ee7a91ac8b4442aa9bcef8cdf21dbb,
+20261021T130022Z-83c71b55,3,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:01:00.433818+00:00,2.681,valid,7,7,stop,41,5,0,0.000132,gen-1792587660-brkDpoFzXFWFTg7qwGsG,c10fd3c3fc124ca59b2c6f85008a26b1,
+20261021T130022Z-83c71b55,3,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:01:03.115934+00:00,2.514,valid,7,7,stop,17,134,124,0.002748,gen-1792587663-UJ7LcIgWXnr9Pqdlmhk8,1cfa0f01ab444026abce24f39cffd8a6,
+20261021T130022Z-83c71b55,4,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:01:05.630500+00:00,2.842,valid,7,7,stop,15,5,0,8e-05,gen-1792587666-KDrsSh6gIfLzNwUk1erY,6abadf94d8df420aa1df3556d113b97e,
+20261021T130022Z-83c71b55,4,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:01:08.473774+00:00,5.304,valid,7,"**7**
+
+Want to guess what I'll pick next, or should we turn this into a game?",stop,20,37,8,0.00082,gen-1792587668-uWKK2y4hMuO0mdcLaGrH,e5670eef9df84a48befa9871bf57d98b,
+20261021T130022Z-83c71b55,4,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:01:13.778755+00:00,1.568,valid,7,7,stop,1251,55,54,0.001104,gen-1792587673-su4TPYpoVLjj4p8kres8,c3f57427e5e942b098fbe2f5cb41b114,
+20261021T130022Z-83c71b55,4,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:01:15.347663+00:00,6.494,valid,7,7,stop,41,5,0,0.000132,gen-1792587677-5CiuAdXlzI3aulPeIjDr,4d87f8bc059943f0aa6d02c5681e78dd,
+20261021T130022Z-83c71b55,4,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:01:21.841897+00:00,4.672,valid,7,7,stop,17,136,126,0.002788,gen-1792587684-fI4a6AqcZLxKCBfYemx4,650b83d2fa1a4908a89f1a091bcc0a60,
+20261021T130022Z-83c71b55,5,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:01:26.514944+00:00,1.364,valid,7,7,stop,15,5,0,8e-05,gen-1792587686-K9ZHQIWEvu1PSrR74gpY,698170c061cb45ae9ab70a4f3695ff5e,
+20261021T130022Z-83c71b55,5,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:01:27.880371+00:00,3.22,valid,7,"**7**
+
+Want to guess what I'll pick next, or should we make it a game?",stop,20,34,7,0.00076,gen-1792587687-JZJSzc1Lx10dUxdvOPPQ,c193d9a06aa44aaebfb315d4d1be4e6b,
+20261021T130022Z-83c71b55,5,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:01:31.102942+00:00,1.51,valid,7,7,stop,1251,57,56,0.001116,gen-1792587691-z5lr6rI2Mq9UN547EPvE,377c01121cbe40a19d7f1a7b475da982,
+20261021T130022Z-83c71b55,5,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:01:32.613583+00:00,4.27,valid,7,7,stop,41,5,0,0.000132,gen-1792587692-gzIa4NxKz5ZVHxZTyrm1,98522f145d8f48d5a07d2cc6cdffe3ff,
+20261021T130022Z-83c71b55,5,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:01:36.886481+00:00,3.463,valid,7,7,stop,17,208,198,0.004228,gen-1792587696-Ky8dldYziWVUjRVhKSwI,9c678c356ace43a6b60867417771cc2e,
+20261021T130022Z-83c71b55,6,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:01:40.351535+00:00,1.647,valid,7,7,stop,15,5,0,8e-05,gen-1792587700-7QXRAnJN6vIDGSQMyTgn,b456201301874c71bac1026fc7c0dc8c,
+20261021T130022Z-83c71b55,6,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:01:41.998773+00:00,3.449,valid,7,**7**,stop,20,13,8,0.00034,gen-1792587702-nFoPhH8L3ooUENKLWJSa,f880440496dc400c9698812e3aaac794,
+20261021T130022Z-83c71b55,6,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:01:45.449418+00:00,1.341,valid,7,7,stop,1251,44,43,0.001038,gen-1792587705-DscZzFULaLM973SGdy41,4388b9f6409744948f55ce18b36b2fa8,
+20261021T130022Z-83c71b55,6,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:01:46.791246+00:00,2.168,valid,7,7,stop,41,5,0,0.000132,gen-1792587706-qaafpdmtm1kmiGa5z3Cd,f687047709eb4c1eb5d443fe29d93dbc,
+20261021T130022Z-83c71b55,6,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:01:48.960162+00:00,4.175,valid,7,7,stop,17,216,206,0.004388,gen-1792587709-wh1OV29SIprQyecWuXtD,0cd14c4c6ad44d5281f1912adff6f54f,
+20261021T130022Z-83c71b55,7,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:01:53.135746+00:00,1.353,valid,7,7,stop,15,5,0,8e-05,gen-1792587713-RkdeTnUAcba83XvSmBdS,4688b67958324c58bb69595b48dc6490,
+20261021T130022Z-83c71b55,7,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:01:54.490127+00:00,6.854,valid,7,**7**,stop,20,16,11,0.0004,gen-1792587714-8Jc3Mvqp53lCid0OZr5U,7a7f6011467b40f293a2e4bfa039e9e9,
+20261021T130022Z-83c71b55,7,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:02:01.344809+00:00,1.682,valid,7,7,stop,1251,57,56,0.001116,gen-1792587721-HKC5CkYlQpVO0lbCPeDu,ae139c7a331b4a409a909e19d971264d,
+20261021T130022Z-83c71b55,7,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:02:03.028404+00:00,3.415,valid,7,7,stop,41,5,0,0.000132,gen-1792587723-P7D0tLUa2yRuEEfHVJxc,1259681c542a4106acc645f7a98d43d9,
+20261021T130022Z-83c71b55,7,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:02:06.443643+00:00,6.416,valid,7,7,stop,17,284,258,0.005748,gen-1792587726-DDmVD1DevDqAaDvhqe7D,96638fad0c2e4976b7e9b46aa3566f8e,
+20261021T130022Z-83c71b55,8,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:02:12.861798+00:00,2.779,valid,7,7,stop,15,5,0,8e-05,gen-1792587732-xtQNFcOO1gs2tPC632se,e60f3a0b386e44748db37becdb11fe4a,
+20261021T130022Z-83c71b55,8,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:02:15.641641+00:00,3.815,valid,7,"**7**
+
+Want to make it a guessing game? Think of a number and I'll try to guess it, or I can think of one for you to guess.",stop,20,52,8,0.00112,gen-1792587735-ceyD6IhlsIa9pDpKihAD,1b9c215a6f364cd68c669504a6c32cd2,
+20261021T130022Z-83c71b55,8,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:02:19.457619+00:00,1.44,valid,7,7,stop,1251,57,56,0.001116,gen-1792587739-QdwBnLiQZz7itewBNJm2,c14188b557a042a5a3e6f5fbd2b2e015,
+20261021T130022Z-83c71b55,8,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:02:20.897952+00:00,3.366,valid,7,7,stop,41,5,0,0.000132,gen-1792587740-sDnzaYC8ir0EjtTnLrUa,0fc1023fa2d54415a2008e9144725daf,
+20261021T130022Z-83c71b55,8,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:02:24.264856+00:00,3.676,valid,7,7,stop,17,283,257,0.005728,gen-1792587744-LXH4UNrvKd5CAwQcr3PF,51938c15286245c0ad4f5adaed6d3d0b,
+20261021T130022Z-83c71b55,9,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:02:27.941940+00:00,1.444,valid,7,7,stop,15,5,0,8e-05,gen-1792587748-E5tItF9AfTXfbyGQ6HEo,472738e5655040f09b25a8d3714708fb,
+20261021T130022Z-83c71b55,9,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:02:29.386816+00:00,2.353,valid,7,"**7**
+
+Want to guess what I'm thinking next, or should we make it a game?",stop,20,36,8,0.0008,gen-1792587749-E3QEC3Nnvadp8EKvgJ8J,42fd3253c1bc4216b39dc90097fc97e9,
+20261021T130022Z-83c71b55,9,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:02:31.741244+00:00,1.314,valid,7,7,stop,1251,57,56,0.001116,gen-1792587751-FZR3I4Tg0xLZuVUtDREO,bb83ba4a26824527abdb8c7fb4b4b554,
+20261021T130022Z-83c71b55,9,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:02:33.056555+00:00,3.992,valid,7,7,stop,41,5,0,0.000132,gen-1792587753-CkmCHMw68CaEsHlmctX1,e828abc3267843f0b8a669a78f01a5dc,
+20261021T130022Z-83c71b55,9,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:02:37.050131+00:00,3.479,valid,7,7,stop,17,205,195,0.004168,gen-1792587757-p8cuZnx85JSVAqsApKDg,ed7ca2c428b843b7b7955f08b125558b,
+20261021T130022Z-83c71b55,10,openai/gpt-6.1-sol,openai/gpt-6.1-sol,OpenAI,2026-10-21T13:02:40.530723+00:00,1.867,valid,7,7,stop,15,5,0,8e-05,gen-1792587760-NBinLSBjLBAyMDTYv9Pi,05f37c13d4384df6b262bf79555ca00a,
+20261021T130022Z-83c71b55,10,anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,Claude Platform on AWS,2026-10-21T13:02:42.397632+00:00,2.296,valid,7,"**7**
+
+Want to guess what I'll pick next, or play a guessing game?",stop,20,39,12,0.00086,gen-1792587762-6pIB92rRbhIKgDynSr0y,e82919e5f248410f953fe786b5127f03,
+20261021T130022Z-83c71b55,10,x-ai/grok-4.7,x-ai/grok-4.7,xAI,2026-10-21T13:02:44.694811+00:00,1.14,valid,7,7,stop,1251,40,39,0.001014,gen-1792587764-mILpNzmbHMVOS9Cj1FZu,a0f23277c7aa4dc9b8ebcf5e610677fd,
+20261021T130022Z-83c71b55,10,google/gemini-4-argon,google/gemini-4-argon,Google,2026-10-21T13:02:45.835726+00:00,3.275,valid,7,7,stop,41,5,0,0.000132,gen-1792587765-608Sg1ZO0YoeuMu7Uu8v,8106d176b30544e0a49f323cf3aaf581,
+20261021T130022Z-83c71b55,10,meta/muse-wonder,meta/muse-wonder,Meta,2026-10-21T13:02:49.112358+00:00,3.625,valid,8,8,stop,17,237,227,0.004808,gen-1792587769-NTM1kQ5Iyuzf2oyJeqdW,85bfd5f2cc40454188a067dabc11cae9,
