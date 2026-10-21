@@ -24,7 +24,7 @@ def completion(answer="7", finish_reason="stop", cost=0.001):
 
 def arguments(directory, **overrides):
     values = dict(output=Path(directory), models=["test/a", "test/b"], samples=2,
-                  prompt=app.PROMPT, reasoning="low", max_tokens=1024, timeout=120)
+                  prompt=app.PROMPT, reasoning="low", max_tokens=1024, timeout=120, max_tool_rounds=2)
     values.update(overrides)
     return argparse.Namespace(**values)
 
