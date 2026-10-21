@@ -1,0 +1,50 @@
+{
+  "run_id": "20261021T144822Z-a83ae13c",
+  "started_at": "2026-10-21T14:48:22.352296+00:00",
+  "state": "completed",
+  "models": [
+    "openai/gpt-6.1-sol",
+    "anthropic/claude-opus-5.5",
+    "x-ai/grok-4.7",
+    "google/gemini-4-argon",
+    "meta/muse-wonder"
+  ],
+  "samples": 10,
+  "prompt": "Pick random a number between 1 and 10",
+  "reasoning": "high",
+  "max_tokens": 1024,
+  "temperature": null,
+  "temperature_sent": false,
+  "base_url": "https://openrouter.ai/api/v1",
+  "timeout_seconds": 120,
+  "automatic_retries": 0,
+  "method": "independent trials with optional Python tool loop, round-robin order",
+  "python_tool": true,
+  "tool_choice": "auto",
+  "tool_schema": {
+    "type": "function",
+    "function": {
+      "name": "run_python",
+      "description": "Execute Python code in an isolated environment. Returns stdout, stderr, and exit code.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "Python code to execute."
+          }
+        },
+        "required": [
+          "code"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "python_image": "python:3.11-slim",
+  "python_image_id": "sha256:cce12316475d7d56d605f76e1d811d0dc4e7227f2d4afd29951521264f504ff8",
+  "max_tool_rounds": 2,
+  "max_tool_calls": 4,
+  "finished_at": "2026-10-21T14:53:32.170541+00:00",
+  "recorded": 50
+}

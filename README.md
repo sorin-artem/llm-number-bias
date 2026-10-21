@@ -49,6 +49,8 @@ All 13 Python calls used `random.randint(1, 10)` and succeeded. Without tools, *
 
 Recorded data: [low](examples/2026-10-21) · [high](examples/2026-10-21-high) · [high with Python](examples/2026-10-21-high-python).
 
+Adding `random` to the prompt increased Python use from **13/50 to 45/50 trials**. [Results and comparison](examples/2026-10-21-random-python/comparison.md).
+
 ## Run options
 
 ```bash
