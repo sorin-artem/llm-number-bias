@@ -1,0 +1,102 @@
+{
+  "run_id": "20261022T082228Z-1049bf3a",
+  "state": "completed",
+  "models": [
+    {
+      "model": "google/gemini-4-argon",
+      "planned": 10,
+      "recorded": 10,
+      "valid": 10,
+      "non_valid": 0,
+      "statuses": {
+        "valid": 10
+      },
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 6,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "percentages": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 20.0,
+        "4": 60.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 20.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0
+      },
+      "reported_cost_usd": 0.01834,
+      "cost_reported_for": 10,
+      "api_requests": 10,
+      "trials_with_tool_calls": 0,
+      "tool_calls_requested": 0,
+      "tool_calls_executed": 0,
+      "tool_calls_successful": 0,
+      "prompt_tokens": 420,
+      "completion_tokens": 1750,
+      "reasoning_tokens": 1692
+    },
+    {
+      "model": "meta/muse-wonder",
+      "planned": 10,
+      "recorded": 10,
+      "valid": 10,
+      "non_valid": 0,
+      "statuses": {
+        "valid": 10
+      },
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 2,
+        "7": 2,
+        "8": 4,
+        "9": 0,
+        "10": 0
+      },
+      "percentages": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 20.0,
+        "5": 0.0,
+        "6": 20.0,
+        "7": 20.0,
+        "8": 40.0,
+        "9": 0.0,
+        "10": 0.0
+      },
+      "reported_cost_usd": 0.07804,
+      "cost_reported_for": 10,
+      "api_requests": 10,
+      "trials_with_tool_calls": 0,
+      "tool_calls_requested": 0,
+      "tool_calls_executed": 0,
+      "tool_calls_successful": 0,
+      "prompt_tokens": 180,
+      "completion_tokens": 3866,
+      "reasoning_tokens": 3607
+    }
+  ],
+  "recorded": 20,
+  "planned": 20,
+  "reported_cost_usd": 0.09638000000000001,
+  "cost_reported_for": 20,
+  "api_requests": 20,
+  "trials_with_tool_calls": 0,
+  "tool_calls_executed": 0,
+  "percentage_denominator": "valid answers per model"
+}

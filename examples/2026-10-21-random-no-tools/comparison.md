@@ -25,3 +25,5 @@ Reproduce this setup:
 ```bash
 python pick_number.py run --samples 10 --reasoning high --prompt "Pick random a number between 1 and 10"
 ```
+
+[October 22 repeat for Gemini and Muse](../2026-10-22-random-no-tools-repeat/comparison.md).
